@@ -13,17 +13,12 @@
 
 <artifactId>converters</artifactId>
 
-<properties>
-    <mapstruct.version>1.5.3.Final</mapstruct.version>
-</properties>
-
 <packaging>jar</packaging>
 
 <dependencies>
 <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>${mapstruct.version}</version>
         </dependency>
 <dependency>
     <artifactId>jpa-entities</artifactId>
